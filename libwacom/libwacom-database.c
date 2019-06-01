@@ -177,6 +177,8 @@ bus_from_str(const char *str)
 		return WBUSTYPE_I2C;
 	if (g_str_equal(str, "virt"))
 		return WBUSTYPE_VIRTUAL;
+	if (strcmp (str, "mei") == 0)
+		return WBUSTYPE_MEI;
 	return WBUSTYPE_UNKNOWN;
 }
 
@@ -197,6 +199,8 @@ bus_to_str(WacomBusType bus)
 		return "i2c";
 	case WBUSTYPE_VIRTUAL:
 		return "virt";
+	case WBUSTYPE_MEI:
+		return "mei";
 	}
 	g_assert_not_reached();
 }

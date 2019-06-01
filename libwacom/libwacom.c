@@ -169,6 +169,10 @@ get_bus_vid_pid(GUdevDevice *device,
 		*bus = WBUSTYPE_VIRTUAL;
 		retval = TRUE;
 		break;
+	case 68:
+		*bus = WBUSTYPE_MEI;
+		retval = TRUE;
+		break;
 	}
 
 out:
@@ -1150,6 +1154,9 @@ print_match(int fd,
 		break;
 	case WBUSTYPE_VIRTUAL:
 		bus_name = "virt";
+		break;
+	case WBUSTYPE_MEI:
+		bus_name = "mei";
 		break;
 	case WBUSTYPE_UNKNOWN:
 		bus_name = "unknown";
