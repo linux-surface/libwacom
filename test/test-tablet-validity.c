@@ -181,6 +181,7 @@ assert_vidpid(WacomBusType bus,
 	case WBUSTYPE_BLUETOOTH:
 	case WBUSTYPE_I2C:
 	case WBUSTYPE_VIRTUAL:
+	case WBUSTYPE_MEI:
 		g_assert_cmpint(vid, >, 0);
 		g_assert_cmpint(pid, >, 0);
 		break;
