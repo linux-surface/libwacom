@@ -48,6 +48,7 @@ def test_device_match(tabletfile):
             "i2c",
             "serial",
             "virt",
+            "mei",
         ], f"{tabletfile}: unknown bus type"
         assert re.match("[0-9a-f]{4}", vid), (
             f"{tabletfile}: {vid} must be lowercase hex"
