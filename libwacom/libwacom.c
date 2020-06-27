@@ -156,6 +156,10 @@ get_bus_vid_pid(GUdevDevice *device,
 		*bus = WBUSTYPE_I2C;
 		retval = TRUE;
 		break;
+	case 6:
+		*bus = WBUSTYPE_VIRTUAL;
+		retval = TRUE;
+		break;
 	}
 
 out:
@@ -1099,6 +1103,9 @@ print_match(int fd,
 		break;
 	case WBUSTYPE_I2C:
 		bus_name = "i2c";
+		break;
+	case WBUSTYPE_VIRTUAL:
+		bus_name = "virt";
 		break;
 	case WBUSTYPE_UNKNOWN:
 		bus_name = "unknown";
