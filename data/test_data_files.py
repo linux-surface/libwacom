@@ -29,6 +29,6 @@ def test_device_match(tabletfile):
             continue
 
         bus, vid, pid = match.split(':')[:3]  # skip the name part of the match
-        assert bus in ['usb', 'bluetooth', 'i2c', 'serial'], f'{tabletfile}: unknown bus type'
+        assert bus in ['usb', 'bluetooth', 'i2c', 'serial', 'virt'], f'{tabletfile}: unknown bus type'
         assert re.match('[0-9a-f]{4}', vid), f'{tabletfile}: {vid} must be lowercase hex'
         assert re.match('[0-9a-f]{4}', pid), f'{tabletfile}: {pid} must be lowercase hex'
