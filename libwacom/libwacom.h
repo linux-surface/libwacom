@@ -153,6 +153,7 @@ typedef enum {
 	WBUSTYPE_SERIAL,    /**< Serial tablet */
 	WBUSTYPE_BLUETOOTH, /**< Bluetooth tablet */
 	WBUSTYPE_I2C,       /**< I2C tablet */
+	WBUSTYPE_VIRTUAL,   /**< Virtual (uinput) tablet */
 } WacomBusType;
 
 /**

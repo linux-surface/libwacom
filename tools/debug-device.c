@@ -189,6 +189,9 @@ handle_device(WacomDeviceDatabase *db,
 		case WBUSTYPE_I2C:
 			busstr = "I2C";
 			break;
+		case WBUSTYPE_VIRTUAL:
+			busstr = "VIRTUAL";
+			break;
 		}
 		func(libwacom_get_bustype, "%s", busstr);
 	}
