@@ -2,8 +2,7 @@
 
 [Device]
 Name=Microsoft Surface Pro 4
-DeviceMatch=mei:1B96:006A
-Class=ISDV4
+DeviceMatch=virt:1B96:006A;virt:1B96:0021;mei:1B96:006A;mei:1B96:0021
 Width=10
 Height=6
 IntegratedIn=Display;System;
