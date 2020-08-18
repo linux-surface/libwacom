@@ -1,0 +1,13 @@
+# This is for the Microsoft Surface Pro 7
+
+[Device]
+Name=Microsoft Surface Pro 7
+DeviceMatch=virt:045E:099F;mei:045E:099F
+Width=10
+Height=6
+IntegratedIn=Display;System;
+
+[Features]
+Stylus=false
+Touch=true
+Buttons=0
