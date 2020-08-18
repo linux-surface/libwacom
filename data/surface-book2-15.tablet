@@ -2,6 +2,7 @@
 
 [Device]
 Name=Microsoft Surface Book 2 (15")
+Class=PenDisplay
 DeviceMatch=virt:045E:0020;mei:045E:0020
 Width=12
 Height=8
