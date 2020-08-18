@@ -2,6 +2,7 @@
 
 [Device]
 Name=Microsoft Surface Pro 7
+Class=PenDisplay
 DeviceMatch=virt:045E:099F;mei:045E:099F
 Width=10
 Height=6
