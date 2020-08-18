@@ -1,0 +1,14 @@
+# This is for the Microsoft Surface Book (1)
+
+[Device]
+Name=Microsoft Surface Book
+Class=PenDisplay
+DeviceMatch=virt|1b96|005e;mei|1b96|005e
+Width=11
+Height=7
+IntegratedIn=Display;System;
+
+[Features]
+Stylus=true
+Touch=true
+Buttons=0
