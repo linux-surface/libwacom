@@ -3,7 +3,7 @@
 [Device]
 Name=Microsoft Surface Book 3 (15")
 Class=PenDisplay
-DeviceMatch=virt:045E:09B1;mei:045E:09B1
+DeviceMatch=virt:045e:09b1;mei:045e:09b1
 Width=12
 Height=8
 IntegratedIn=Display;System;
