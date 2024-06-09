@@ -3,7 +3,7 @@
 [Device]
 Name=Microsoft Surface Pro 6
 Class=PenDisplay
-DeviceMatch=virt:045e:001f;mei:045e:001f
+DeviceMatch=virt|045e|001f;mei|045e|001f
 Width=10
 Height=6
 IntegratedIn=Display;System;
