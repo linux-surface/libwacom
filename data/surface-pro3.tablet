@@ -3,7 +3,7 @@
 [Device]
 Name=Microsoft Surface Pro 3
 Class=PenDisplay
-DeviceMatch=i2c:1b96:1b05
+DeviceMatch=i2c|1b96|1b05
 Width=10
 Height=6
 IntegratedIn=Display;System;
