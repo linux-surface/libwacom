@@ -3,7 +3,7 @@
 [Device]
 Name=Microsoft Surface Pro 9
 Class=PenDisplay
-DeviceMatch=virt:045e:0c52
+DeviceMatch=virt|045e|0c52
 Width=10
 Height=6
 IntegratedIn=Display;System;
