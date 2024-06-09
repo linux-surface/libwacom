@@ -178,6 +178,7 @@ handle_device(WacomDeviceDatabase *db, const char *path)
 			case WBUSTYPE_BLUETOOTH: busstr = "BLUETOOTH"; break;
 			case WBUSTYPE_I2C: busstr = "I2C"; break;
 			case WBUSTYPE_VIRTUAL: busstr = "VIRTUAL"; break;
+			case WBUSTYPE_MEI: busstr = "MEI"; break;
 		}
 		func(libwacom_get_bustype, "%s", busstr);
 	}
