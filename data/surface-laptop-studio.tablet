@@ -3,7 +3,7 @@
 [Device]
 Name=Microsoft Surface Laptop Studio
 Class=PenDisplay
-DeviceMatch=virt:045e:0c1b
+DeviceMatch=virt|045e|0c1b
 Width=10
 Height=6
 IntegratedIn=Display;System;
